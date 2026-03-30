@@ -2,7 +2,7 @@ package DoItAlgorithmCodingTest.Chapter2.Section05.Unit01;
 
 import java.util.Scanner;
 
-public class Problem015 {
+public class Problem015_book {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
