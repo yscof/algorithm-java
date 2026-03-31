@@ -36,7 +36,7 @@ Edge {      // 에지 클래스 별도 구현하기
 
 import java.util.*;
 
-public class Problem031 {
+public class Problem031_book {
     static boolean visited[];
     static int[] distance;
     static ArrayList<Edge>[] A;
