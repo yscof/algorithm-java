@@ -46,8 +46,8 @@ public class Problem033_book {
             A[i] = sc.nextInt();
             if (start < A[i]) {
                 start = A[i];       // 레슨 최댓값을 시작 인덱스로 저장하기
-                end = end + A[i];   // 모든 레슨의 총합을 종료 인덱스로 저장하기
             }
+            end = end + A[i];   // 모든 레슨의 총합을 종료 인덱스로 저장하기
         }
         while (start <= end) {
             int middle = (start + end) / 2;
