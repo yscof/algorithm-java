@@ -39,7 +39,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Problem030 {
+public class Problem030_book {
     // 상하좌우를 탐색하기 위한 배열 선언하기
     static int[] dx = {0, 1, 0, -1};
     static int[] dy = {1, 0, -1, 0};
