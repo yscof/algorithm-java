@@ -15,10 +15,10 @@ for (A 배열 길이의 제곱근까지 반복하기) {
     }
 }
 while (true) {
-    N부터 값을 1씩 증가시키면서 해당 값이 소수이면서 펠린드롬 수인지 판별하기
+    N부터 값을 1씩 증가시키면서 해당 값이 소수이면서 팰린드롬 수인지 판별하기
     맞으면 반복문 종료하기
 }
-// 펠린드롬 판별 함수 구현하기
+// 팰린드롬 판별 함수 구현하기
 Integer값을 char 배열로 변환하기
 s(시작 인덱스), e(끝 인덱스)
 while (s < e) {
@@ -47,7 +47,7 @@ public class Problem042_book {
             }
         }
         int i = N;
-        while (true) {      // N부터 1씩 증가시키면서 소수와 펠린드롬 수가 맞는지 확인하기
+        while (true) {      // N부터 1씩 증가시키면서 소수와 팰린드롬 수가 맞는지 확인하기
             if (A[i] != 0) {
                 int result = A[i];
                 if (isPalindrome(result)) {
@@ -59,7 +59,7 @@ public class Problem042_book {
         }
     }
 
-    private  static boolean isPalindrome(int target) {      // 펠릳느롬 수 판별 함수
+    private  static boolean isPalindrome(int target) {      // 팰린드롬 수 판별 함수
         char temp[] = String.valueOf(target).toCharArray();
         int s = 0;
         int e = temp.length - 1;
