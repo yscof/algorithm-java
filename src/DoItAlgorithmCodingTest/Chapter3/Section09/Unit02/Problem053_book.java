@@ -1,6 +1,8 @@
 package DoItAlgorithmCodingTest.Chapter3.Section09.Unit02;
 
 /*
+문제053 집합 표현하기 / 백준 1717번 (골드 4)
+
 N(원소 개수) M(질의 개수)
 parent(대표 노드 저장 배열)
 for (N만큼 반복하기) {
